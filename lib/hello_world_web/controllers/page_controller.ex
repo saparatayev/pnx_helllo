@@ -8,6 +8,6 @@ defmodule HelloWorldWeb.PageController do
   end
 
   def hello(conn, _params) do
-    redirect(conn, external: "https://google.com")
+    redirect(conn, to: ~p"/")
   end
 end
